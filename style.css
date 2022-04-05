@@ -5,9 +5,17 @@ header{
     top: 0px;
     position: fixed;
     padding-right: 95%;
+    padding-bottom: 5px;
+    word-spacing: 10px;
     left: 0px;
     background-color: rgb(162, 213, 255);
     z-index: 1;
+}
+
+nav{
+    position: fixed;
+    top: 60px;
+
 }
 
 img, .minha_foto {
@@ -34,17 +42,6 @@ ul, .licoes_a_aprender {
     left: 175px;
 }
 
-footer, .rodape{
-    top: 1000px;
-    position:absolute;
-    padding-right: 95%;
-    padding-bottom: 125px;
-    
-    left: 0px;
-    background-color: rgb(162, 213, 255);
-    
-}
-
 article, .about_me {
     display: block;
     position: absolute;
@@ -56,4 +53,14 @@ display: block;
 position: absolute;
 top: 625px;
 margin-left: 75%;
+}
+
+footer, .rodape{
+    top: 1000px;
+    position:absolute;
+    padding-right: 95%;
+    padding-bottom: 50px;
+    left: 0px;
+    background-color: rgb(162, 213, 255);
+    
 }
