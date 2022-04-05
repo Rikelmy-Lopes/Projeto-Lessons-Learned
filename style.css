@@ -1,30 +1,59 @@
 body{
     background-color: rgb(253, 251, 251);
 } 
-header , .cabecalho{
+header{
     top: 0px;
     position: fixed;
+    padding-right: 95%;
+    left: 0px;
+    background-color: rgb(162, 213, 255);
+    z-index: 1;
 }
 
 img, .minha_foto {
 width: 200px;
-position: fixed;
+position: absolute;
 top: 75px;
 left: -25px;
+
 }
 h2 {
-    position: fixed;
+    position: absolute;
     top: 275px;
     left: 25px;
 }
 
 ol, .licoes_aprendidas {
-   position: fixed;
+   position: absolute;
     top: 325px;
 }
 
 ul, .licoes_a_aprender {
-    position: fixed;
+    position: absolute;
     top: 320px;
     left: 175px;
+}
+
+footer, .rodape{
+    top: 1000px;
+    position:absolute;
+    padding-right: 95%;
+    padding-bottom: 125px;
+    
+    left: 0px;
+    background-color: rgb(162, 213, 255);
+    
+}
+
+article, .about_me {
+    display: block;
+    position: absolute;
+    top: 530px;
+}
+
+section aside {
+display: block;
+position: absolute;
+top: 625px;
+margin-left: 75%;
 }
