@@ -8,4 +8,23 @@ header , .cabecalho{
 
 img, .minha_foto {
 width: 200px;
+position: fixed;
+top: 75px;
+left: -25px;
+}
+h2 {
+    position: fixed;
+    top: 275px;
+    left: 25px;
+}
+
+ol, .licoes_aprendidas {
+   position: fixed;
+    top: 325px;
+}
+
+ul, .licoes_a_aprender {
+    position: fixed;
+    top: 320px;
+    left: 175px;
 }
