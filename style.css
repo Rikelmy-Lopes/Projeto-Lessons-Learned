@@ -4,48 +4,78 @@ body{
 header{
     top: 0px;
     position: fixed;
-    padding-right: 95%;
-    padding-bottom: 5px;
+    padding-right: 100%;
+    padding-bottom: 85px;
     word-spacing: 10px;
     left: 0px;
     background-color: rgb(162, 213, 255);
     z-index: 1;
 }
 
+h1{
+    position: fixed;
+    font-family: 'Beau Rivage', cursive;
+}
+
 nav{
     position: fixed;
     top: 60px;
+    padding: 2px;
+    margin: 1px;
+    border: 1px;
+
+}
+table {
+ position: absolute;
+ top: 90px;
+ left: 230px;
+ border-color: rgb(162, 213, 255);
 
 }
 
 img, .minha_foto {
 width: 200px;
 position: absolute;
-top: 75px;
-left: -25px;
-
+top: 90px;
+left: 10px;
+padding: 5px;
+background-color: black;
 }
 h2 {
     position: absolute;
-    top: 275px;
-    left: 25px;
+    top: 285px;
+    right: 310px;
+    color: rgb(41, 157, 252);
 }
 
 ol, .licoes_aprendidas {
-   position: absolute;
-    top: 325px;
+    top: 313px;
+}
+
+ol, ul #lado-direito {
+    position: relative;
+    right: 200px;
+ float: right;
+ display: block;
 }
 
 ul, .licoes_a_aprender {
     position: absolute;
     top: 320px;
-    left: 175px;
+    right: 50px;
 }
 
 article, .about_me {
     display: block;
-    position: absolute;
-    top: 530px;
+    top: 150px;
+    font-size: large;
+}
+article, #lado-esquerdo {
+    position: relative;
+ float: left;
+ display: block;
+ margin-right: 500px;
+
 }
 
 section aside {
@@ -53,6 +83,7 @@ display: block;
 position: absolute;
 top: 625px;
 margin-left: 75%;
+line-height: 23px;
 }
 
 footer, .rodape{
